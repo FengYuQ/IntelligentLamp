@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">智能语音台灯</string>
+    <string name="app_id">5c7a8666</string>
+    <string name="speech_control_button">语音控制</string>
+    <string name="manual_control_button">手动控制</string>
+    <string name="click_wifi_button">连接Wifi</string>
+    <string name="manual_button1">开</string>
+    <string name="manual_button2">亮一档</string>
+    <string name="manual_button3">亮二档</string>
+    <string name="manual_button4">亮三档</string>
+    <string name="manual_button5">关</string>
+    <string name="return_button">返回</string>
+</resources>

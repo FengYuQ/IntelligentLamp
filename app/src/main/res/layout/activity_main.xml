@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorAliceBlue">
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="170dp"
+        android:layout_centerHorizontal="true">
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:background="@color/colorAliceBlue"
+            android:src="@mipmap/voice"
+            android:id="@+id/speech_image_button" />
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:background="@color/colorAliceBlue"
+            android:src="@mipmap/manual_close"
+            android:visibility="gone"
+            android:id="@+id/manual_image_button" />
+    </FrameLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/mode_button_layout"
+        android:layout_marginBottom="40dp"
+        android:orientation="horizontal">
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:src="@mipmap/lighting"
+            android:background="@color/colorAliceBlue"
+            android:id="@+id/lighting_button"/>
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:src="@mipmap/dimming"
+            android:background="@color/colorAliceBlue"
+            android:id="@+id/dimming_button"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:id="@+id/mode_button_layout">
+    <Button
+        android:id="@+id/SpeechButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_margin="10dp"
+        android:background="@drawable/circle_button_unclicked_style"
+        android:text="@string/speech_control_button"
+        android:textSize="24dp"
+        android:textColor="@color/colorPureWhite"
+        android:textStyle="bold"/>
+    <Button
+        android:id="@+id/ManualButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_margin="10dp"
+        android:background="@drawable/circle_button_unclicked_style"
+        android:text="@string/manual_control_button"
+        android:textSize="24dp"
+        android:textColor="@color/colorPureWhite"
+        android:textStyle="bold"/>
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@mipmap/main_background"
+        android:scaleType="fitXY"
+        android:id="@+id/launchView"/>
+
+</RelativeLayout>

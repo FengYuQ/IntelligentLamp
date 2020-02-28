@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <!-- APP的主题背景颜色 -->
+    <color name="colorAliceBlue">#F0F8FF</color>
+    <!-- 未被点击的按钮字体颜色 -->
+    <color name="colorPureWhite">#ffffff</color>
+    <!-- 未被点击的按钮背景颜色 -->
+    <color name="colorRoyalBlue">#4169E1</color>
+    <!-- 被点击的按钮的背景颜色 -->
+    <color name="colorDarkGray">#A9A9A9</color>
+    <!-- 被点击的按钮的字体颜色 -->
+    <color name="colorGainsboro">#DCDCDC</color>
+</resources>
